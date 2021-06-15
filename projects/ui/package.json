@@ -1,0 +1,41 @@
+{
+  "name": "@po-ui/ng-components",
+  "version": "0.0.0-PLACEHOLDER",
+  "tag": "next",
+  "description": "PO UI - Components",
+  "author": "PO UI",
+  "license": "MIT",
+  "homepage": "https://po-ui.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/po-ui/po-angular"
+  },
+  "schematics": "./schematics/collection.json",
+  "ng-update": {
+    "migrations": "./schematics/migrations.json",
+    "packageGroup": [
+      "@po-ui/ng-components",
+      "@po-ui/ng-templates",
+      "@po-ui/ng-code-editor",
+      "@po-ui/style"
+    ]
+  },
+  "dependencies": {
+    "@po-ui/style": "0.0.0-PLACEHOLDER",
+    "@po-ui/ng-schematics": "0.0.0-PLACEHOLDER",
+    "tslib": "^2.1.0"
+  },
+  "peerDependencies": {
+    "@angular/animations": "~12.0.1",
+    "@angular/common": "~12.0.1",
+    "@angular/compiler": "~12.0.1",
+    "@angular/core": "~12.0.1",
+    "@angular/forms": "~12.0.1",
+    "@angular/platform-browser": "~12.0.1",
+    "@angular/platform-browser-dynamic": "~12.0.1",
+    "@angular/router": "~12.0.1",
+    "@po-ui/style": "0.0.0-PLACEHOLDER",
+    "rxjs": "~6.6.0",
+    "zone.js": "~0.11.4"
+  }
+}
